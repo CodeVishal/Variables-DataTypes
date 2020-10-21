@@ -1,0 +1,57 @@
+***Interger data type -->
+
+int---->
+The integer data type size in java is 2 bytes .
+The integer data type Stores whole numbers from -2,147,483,648 to 2,147,483,647
+The integer data type 32 bits
+
+
+Since the int data type can only store numbers in a particular range, 
+what will you do if you wish to store a larger number? Or if you want to store a really small number, 
+would you want the computer to allocate a large chunk of memory which int occupies? 
+Clearly, for storing larger numbers and optimal memory usage, we need different “containers” or data types.
+
+ 
+
+***Long -->
+ The long data type can store whole numbers from -9223372036854775808 to 9223372036854775807. 
+ This is used when int is not large enough to store the value. 
+ Note that you should end the value with an "L":
+ 
+ Long contains 64 bits
+ 
+ e.g 
+long myNum = 15000000000L;
+System.out.println(myNum);
+
+
+
+** Short --->
+The short data type can store whole numbers from -32768 to 32767:
+short consists of 16 bits
+
+
+***Decimal Data storing ---->
+
+**float--->
+This data type can store numbers with 7 digits after the decimal.
+Note that you should end the value with an "f"
+This is 32 bits
+
+e.g 
+float myNum = 5.75f;
+System.out.println(myNum);
+
+
+**double--->
+This is 64 bits
+This data type can store numbers with 16 digits after the decimal
+double d = 1.234568
+Use float or double?
+
+The precision of a floating point value indicates how many digits the value can have after the decimal point. 
+The precision of float is only six or seven decimal digits, while double variables have a precision of 
+about 15 digits. Therefore it is safer to use double for most calculations.
+
+Note: Remember to append “f” to the number before storing it in a float variable to make 
+sure that it is not interpreted as a double. 
