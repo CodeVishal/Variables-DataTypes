@@ -26,3 +26,17 @@ For example, there is no line break after the brace if it is followed by else or
 5.Each time a new block or block-like construct is opened, the indent increases by two spaces. 
 When the block ends, the indent returns to the previous indent level. 
 The indent level applies to both the code and comments throughout the block.
+
+
+***Rules for variables---->
+1. It’s a convention to follow lower camel case.
+
+2. Variable names cannot start with numbers or special characters.
+
+3. There should not be any spaces in variable names.
+
+4. Variable names are case-sensitive.
+
+5. You cannot use reserved keywords as variable names. You will find the list of reserved keywords if you follow the link given here.
+
+Note: The lower camel case and upper camel case conventions are not just specific to Java and are followed while writing code in any other programming language too.
