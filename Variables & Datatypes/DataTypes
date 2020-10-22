@@ -55,3 +55,37 @@ about 15 digits. Therefore it is safer to use double for most calculations.
 
 Note: Remember to append “f” to the number before storing it in a float variable to make 
 sure that it is not interpreted as a double. 
+
+
+***Char--->
+The char data type is used to store a single character. 
+The character must be surrounded by single quotes, like 'A' or 'c':
+
+It is 16 bit data types
+e.g 
+char myGrade = 'B';
+System.out.println(myGrade);
+
+** boolean---->
+Boolean datatype can store only two values like 'false' or 'true'
+
+e.g 
+boolean x = true; ----> Internally stores value 1
+
+boolean y = false; ----> Internally stores value 0
+
+boolean a = 1;  ---> THis is not valid statement
+
+Size of boolean data type is 1 bit
+
+
+
+** byte --->
+byte datatypes contains number pershaps integer
+byte  x = 20; ---> Allocate 8 bits
+
+
+
+
+
+
