@@ -1,0 +1,17 @@
+In Java, +, -, and * are the symbols used for addition, subtraction, and multiplication respectively. 
+For division, the “/” symbol is used
+
+Dividing two integers will always give back an integer. So dividing 5 by 4 will give you 1 and not 1.25. 
+The portion after the decimal is ignored.
+
+Similarly, dividing two doubles always gives back a double. So dividing 4 stored in a double variable by 2 stored 
+in a double variable will give back a double, 2.0 and not an int, 2.
+
+An operation performed on variables of int data type will always return an int 
+value only and hence can lead to information loss.
+
+ the mod operator is used to store the remainder of the division between two numbers. 
+ It is very useful in cases such as trying to find an odd number or checking divisibility,
+ 
+ 
+ 
