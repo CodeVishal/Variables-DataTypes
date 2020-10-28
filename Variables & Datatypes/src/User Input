@@ -1,0 +1,29 @@
+use the Scanner class to prompt the user to input the values.
+
+Explanation of the Scanner Code
+
+First you wrote the following statement to be able to use the Scanner class:
+
+Scanner input= new Scanner(System.in);
+
+Here, “input” is the name of your Scanner. You can name the Scanner absolutely anything(like choosing variable names).
+
+This statement “new Scanner(System.in)” prompts Java to provide you with a new Scanner 
+to “scan” the input given by users.
+
+ 
+
+You can then use the following statement to read some integer data given as input from the user:
+
+a=input.nextInt();
+
+Here, the “.nextInt()” keywords tell you scanner(named “input”) to look for the next data entered 
+by the user and store it in the variable “a”.
+
+ 
+
+Remember, for Java to know where should it get the code for the Scanner from, 
+you have to add the following statement at the top of your code file:
+
+import java.util.Scanner;
+
