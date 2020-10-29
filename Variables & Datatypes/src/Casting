@@ -1,0 +1,36 @@
+“Casting”. This is a process that will let you know how you can convert one data type to another.
+ It is helpful in many situations and will be of immense use to you 
+when you write programs. Let’s see how you can go about it.
+
+
+Just to recap, in case you want to convert an int variable ‘x’ to a double, you write it like this:
+
+ 
+
+(double) x.
+
+And now, you can store this in another double variable, say, ‘y’. So, double y = (double) x; 
+will convert an int ‘x’ to a double and store the value in ‘y’.
+
+Please note that here x is converted to a double only for the statement double y = (double) x; . 
+
+ The variable “x” remains of the type int only; i.e. if you use x somewhere else, it will behave as an int. 
+ Hence this is just a temporary conversion to a double.
+ 
+ 
+ for characters casting----->
+ a='A';
+int b;
+b= (int) a;
+System.out.print(b);
+
+You must be able to observe the output as:
+
+65
+
+ 
+
+Here, “65” represents the character “A”. 
+Such representations are standardized by ASCII(American Standard Code for Information Interchange).
+
+
